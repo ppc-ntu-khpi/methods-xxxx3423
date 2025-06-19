@@ -7,7 +7,7 @@
 
 ## Код:
 ## Exercise.java:
-
+```Java
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 public class Exercise {
