@@ -30,11 +30,10 @@ public class Exercise {
         return day != DayOfWeek.SATURDAY && day != DayOfWeek.SUNDAY;
     }
 }
-```
+
 TestResult.java
 
 import java.time.LocalDate;
-
 public class TestResult {
 
     public static void main(String[] args) {
