@@ -5,18 +5,20 @@
 1. Модифікував стартовий код таким чином, щоб метод ```Calculate``` класу ```Exercise``` містив код обчислення значення у відповідності до обраного мною завдання 
 2. Рядок, який виводиться у результаті виконання методу ```main``` класу ```TestResult```  скоригував у відповідності до специфіки завдання
 
-## Код
-## Exercise.java
+## Код:
+## Exercise.java:
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 public class Exercise {
+
     public static int Calculate(LocalDate start, LocalDate end) {
         int workingDays = 0;
         // Обхід кожного дня в діапазоні
         for (LocalDate date = start; !date.isAfter(end); date = date.plusDays(1)) {
             if (isWorkingDay(date)) {
                 workingDays++;
+                
             }
         }
         return workingDays * 8; // 8 годин за кожен робочий день
