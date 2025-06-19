@@ -6,7 +6,8 @@
 2. рядок, який виводиться у результаті виконання методу ```main``` класу ```TestResult```  скоригував у відповідності до специфіки завдання
 
 ## Код
-```Exercise.java```
+## Exercise.java
+
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
@@ -33,7 +34,7 @@ public class Exercise {
 }
 
 
-```TestResult.java```
+## TestResult.java
 import java.time.LocalDate;
 
 public class TestResult {
