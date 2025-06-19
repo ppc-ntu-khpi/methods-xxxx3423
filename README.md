@@ -31,7 +31,7 @@ public class Exercise {
     }
 }
 
-TestResult.java
+TestResult.java:
 
 import java.time.LocalDate;
 public class TestResult {
