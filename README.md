@@ -30,8 +30,8 @@ public class Exercise {
     }
 }
 
-
 ## TestResult.java
+```Java
 import java.time.LocalDate;
 
 public class TestResult {
